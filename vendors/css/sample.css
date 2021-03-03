@@ -39,7 +39,7 @@ header .top_menu {
 header li.right {
   float: left;
 }
-header ul:after {
+.clearfix:after {
   content: "";
   clear: both;
   display: block;
@@ -56,13 +56,20 @@ header ul:after {
   margin: 40px 0;
 /* About Achieve部分の実装 */
 }
+.about p {
+  margin: 2rem 0px;
+}
 /* ここから */
 .function {
   background-color: silver;
+  padding: 40px 0;
 }
 .function-images {
+  float: left;
 }
 .function-image {
+  float: left;
+
 }
 /* ここまでがfunction部分の実装 */
 footer {
