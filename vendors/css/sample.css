@@ -17,13 +17,13 @@ header {
   background-color: #333333;
   height: 4rem;
   font-size: 1.1rem;
-  padding-top: 15px;
+  padding: 10px;
 }
 header ul {
-  margin: 0px;
 }
 header ul a {
   color: white;
+  text-decoration: none;
 }
 header li {
   list-style: none;
