@@ -14,17 +14,42 @@ body {
 }
 /* ここから */
 header {
+  background-color: #333333;
+  height: 4rem;
+  font-size: 1.1rem;
+  padding-top: 15px;
 }
 header ul {
+  margin: 0px;
 }
 header ul a {
+  color: white;
 }
 header li {
+  list-style: none;
+  width: 15vw;
+}
+header li.left {
+  float: left;
+  text-align: left;
+}
+header .top_menu {
+  float: right;
+}
+header li.right {
+  float: left;
 }
 header ul:after {
+  content: "";
+  clear: both;
+  display: block;
 }
 /* ここまでがheader部分の実装 */
+.main-header {
+  padding: 11rem 0;
+}
 .main-header img {
+  width: 18vw;
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
 }
 .about {
@@ -32,6 +57,7 @@ header ul:after {
 }
 /* ここから */
 .function {
+  background-color: silver;
 }
 .function-images {
 }
@@ -39,6 +65,11 @@ header ul:after {
 }
 /* ここまでがfunction部分の実装 */
 footer {
+  background-color: #000033;
+  color: white;
 /* footer部分の実装 */
+}
+footer p {
+  margin: 0;
 }
 /* ここに書かれているcssの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 */
