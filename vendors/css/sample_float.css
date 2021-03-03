@@ -65,9 +65,11 @@ header li.right {
   padding: 40px 0;
 }
 .function-images {
+  float: left;
   padding: 6rem 6rem;
 }
 .function-image {
+  float: left;
   width: 20vw;
 }
 /* ここまでがfunction部分の実装 */
