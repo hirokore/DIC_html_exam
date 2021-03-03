@@ -53,6 +53,7 @@ header ul:after {
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
 }
 .about {
+  margin: 40px 0;
 /* About Achieve部分の実装 */
 }
 /* ここから */
